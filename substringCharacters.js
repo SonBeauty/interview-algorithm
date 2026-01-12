@@ -1,3 +1,10 @@
+// Bài toán: Longest Substring Without Repeating CharactersCho một chuỗi ký tự s. Hãy tìm độ dài của chuỗi con liên tiếp (substring) dài nhất mà không có ký tự nào bị trùng lặp.
+// Ví dụ 1:Input: s = "abcabcbb" Output: 3
+// Giải thích: Chuỗi con dài nhất là "abc", độ dài là 3.
+// Ví dụ 2:Input: s = "bbbbb" Output: 1
+// Giải thích: Chuỗi con là "b". Ví dụ 3:Input: s = "pwwkew" Output: 3 Giải thích: Chuỗi con là "wke".
+// Lưu ý là "pwke" là subsequence (chuỗi con không liên tiếp), không phải substring.Yêu cầu:Giả sử độ dài chuỗi có thể lên tới  10^4 ký tự.Bạn hãy trình bày ý tưởng giải quyết, độ phức tạp thời gian/không gian (Time/Space Complexity) và viết code (giả mã hoặc code cụ thể bằng ngôn ngữ bạn mạnh nhất như Java, Go, Python, JS...).
+
 // function substringCharacters(s) {
 //   let arr = [...s];
 //   let result = [];

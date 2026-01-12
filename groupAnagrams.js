@@ -1,3 +1,10 @@
+// Bài toán: Group Anagrams (Nhóm các từ đảo chữ)Cho một mảng các chuỗi strs. Hãy gom nhóm các chuỗi là Anagram của nhau lại. Bạn có thể trả về kết quả theo bất kỳ thứ tự nào.Định nghĩa: Anagram là một từ hoặc cụm từ được tạo ra bằng cách sắp xếp lại các chữ cái của một từ hoặc cụm từ khác, thường sử dụng tất cả các chữ cái gốc chính xác một lần. (Ví dụ: "listen" và "silent").
+// Ví dụ 1:
+// Input: strs = ["eat", "tea", "tan", "ate", "nat", "bat"]Output: [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]]
+// Giải thích: "eat", "tea", "ate" đều cấu tạo từ 3 chữ cái 'a', 'e', 't' -> gom thành 1 nhóm.
+// Ví dụ 2:Input: strs = [""]Output: [[""]]Ví dụ 3:Input: strs = ["a"]Output: [["a"]]
+// Yêu cầu:Độ dài mảng strs lên tới $10^4$.Độ dài mỗi chuỗi trong mảng lên tới 100 ký tự.Vui lòng giải thích giải pháp của bạn để đảm bảo Performance tốt nhất (tránh $O(N^2)$).Bạn hãy suy nghĩ và viết code (JavaScript/Node.js) nhé. Tôi đang chờ xem cách bạn chọn Key cho bài toán này.
+
 // const groupAnagrams = (strs) => {
 //   let result = [];
 //   for (let i = 0; i < strs.length; i++) {
