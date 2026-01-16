@@ -14,7 +14,7 @@ function numOffices(grid = []) {
 
   //create dfs
   function dfs(r, c) {
-    if (r < 0 || c < 0 || r >= rows || c >= cols || grid[r][c] === 0) {
+    if (r < 0 || c < 0 || r >= rows || c >= cols || grid[r][c] == 0) {
       return;
     }
 
